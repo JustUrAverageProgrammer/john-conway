@@ -4,15 +4,10 @@
 
 #include "life.h"
 
-/* This is where your program will start.  You should make sure that it
- * is capable of accepting either one or two arguments; the first
+/* Make sure that it is capable of accepting either one or two arguments; the first
  * argumentq (which is required) is a starting state in one of the Life
  * formats squpported by parse_life(), and the second (which is optional)
- * is a number of generations to run before printing output and stopping.
- *
- * The autograder will always call your program with two arguments.  The
- * one-argument format (as described in the handout) is for your own
- * benefit!
+ * is a number of generations to run before printing output and stopping
  */
 
 //Checks if cell is alive or dead
