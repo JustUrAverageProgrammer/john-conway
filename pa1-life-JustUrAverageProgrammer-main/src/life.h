@@ -13,7 +13,6 @@
 #define LIVE 'X'
 #define DEAD ' '
 
-/* The documentation for these functions appears in parser.c */
 char **parse_life(const char *filename);
 void free_grid(char **grid);
 
